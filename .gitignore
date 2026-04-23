@@ -1,0 +1,37 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/data/__pycache__/
+backend/generation/__pycache__/
+backend/models/__pycache__/
+backend/training/__pycache__/
+*.pyc
+*.pyo
+
+# Large dataset files
+backend/data/midi_raw/
+backend/data/midi_tokenized/
+
+# Generated MIDI outputs
+backend/generation/outputs/
+
+# Checkpoints (large model files)
+backend/checkpoints/
+backend/training/checkpoints/
+
+# Logs
+backend/training/loss_log.txt
+
+# Environment variables
+frontend/.env.local
+frontend/.env*.local
+
+# Next.js
+frontend/.next/
+
+# Node
+frontend/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

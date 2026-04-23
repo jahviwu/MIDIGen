@@ -1,0 +1,28 @@
+# Ignore everything inside the dataset folders
+data/midi_raw/**
+data/midi_processed/**
+data/midi_tokens/**
+
+# Keep the folders themselves so the structure stays
+!data/midi_raw/
+!data/midi_processed/
+!data/midi_tokens/
+
+# Keep your scripts and vocab file inside data/
+!data/*.py
+!data/*.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env
+musicgen-env/
+venv/
+
+# VS Code
+.vscode/
+
+# Model checkpoints and logs
+checkpoints/
+runs/
