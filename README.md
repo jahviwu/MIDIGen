@@ -3,6 +3,9 @@
 An end-to-end pipeline that learns to compose original music by training an autoregressive Transformer on a large corpus of MIDI files. Describe a mood or style in plain text and get an original MIDI composition back.
 
 ---
+## Video Demo
+[Video Demo] (https://youtu.be/Xb1goKn98is)
+---
 
 ## How It Works
 
