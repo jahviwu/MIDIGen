@@ -4,7 +4,7 @@ An end-to-end pipeline that learns to compose original music by training an auto
 
 ---
 ## Video Demo
-[Video Demo] (https://youtu.be/Xb1goKn98is)
+(https://youtu.be/Xb1goKn98is)
 ---
 
 ## How It Works
